@@ -25,7 +25,7 @@ img {
 
 header {
   background-color: #fff;
-  padding: 1rem 0;
+  padding: 16px 0;
   border-bottom: 2px solid #4a90e2;
 }
 
@@ -33,7 +33,7 @@ header .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 16px;
 }
 
 header .logo {
@@ -47,14 +47,14 @@ header .logo img {
 }
 
 header h1 {
-  font-size: 1.5rem;
+  font-size: 24px;
   color: #4a90e2;
 }
 
 header nav ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 16px;
 }
 
 header nav a {
@@ -70,6 +70,31 @@ header nav a:hover {
   background-color: #f5a623;
   color: #fff;
 }
+main section {
+  padding: 32px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #4a90e2;
+}
+
+#apresentacao figure img {
+  width: 90%;
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#apresentacao figure {
+  margin: 24px 0;
+  text-align: center;
+}
+
+#apresentacao p {
+  margin-bottom: 16px;
+}
 
 @media (min-width: 768px) {
   header .container {
@@ -78,6 +103,6 @@ header nav a:hover {
   }
 
   header h1 {
-    font-size: 2rem;
+    font-size: 32px;
   }
 }
