@@ -25,8 +25,8 @@ img {
 
 header {
   background-color: #fff;
-  height: 120px;
-  padding: 2.0px ;
+  height: 135px;
+  padding: 1px ;
   border-bottom: 2px solid #4a90e2;
 }
 
@@ -34,7 +34,7 @@ header .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 1px;
 }
 
 header .logo {
@@ -130,7 +130,7 @@ h1 {
 .abas {
   margin: auto;
   display: flex;
-  width: 1300px;
+  max-width: 1300px;
   flex-wrap: wrap;
   gap: 32px;
   justify-content: center;
@@ -185,7 +185,7 @@ h1 {
 
 .btn-adotar {
   display: inline-block;
-  margin-top: auto;
+  margin-top: 5px;
   padding: 8px 16px;
   background: #4a90e2;
   color: #fff;
